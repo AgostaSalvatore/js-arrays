@@ -8,6 +8,7 @@ const teachers = [
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
 
+console.log('-----------------ES1------------')
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3];
@@ -31,11 +32,15 @@ const firstTeacher = teachers[0];
 teachers.shift
 console.log(firstTeacher);
 console.log(teachers);
-  
+
 console.log('-----------------ES5------------')
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push('Vanessa')
+console.log(teachers)
 
+console.log('-----------------ES6------------')
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
