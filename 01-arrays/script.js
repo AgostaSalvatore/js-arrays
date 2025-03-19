@@ -57,12 +57,14 @@ console.log(teachers)
 console.log('-----------------ES8------------')
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-for(let i = 0; i<teachers.length; i++){
-  if(teachers.length == 0){
-    const isTeachersEmpty = true;
-    console.log('array vuoto: ' + isTeachersEmpty)
-  }
+const isTeachersEmpty = teachers.length === 0;
+if(isTeachersEmpty){
+  console.log(`L'array e' vuoto? ${isTeachersEmpty}`)
 }
+else{
+  console.log(`L'array e' vuoto? ${isTeachersEmpty}`)
+}
+console.log(teachers)
 
 
 //const isTeachersEmpty = null;
