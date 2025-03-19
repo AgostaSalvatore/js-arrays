@@ -5,7 +5,7 @@ const teachers = [
   'Phil',
   'Carlo',
   'Lewis',
-  'Luca'
+  'Luca     '
 ]; // NON MODIFICARE QUESTA VARIABILE
 
 console.log('-----------------ES1------------')
@@ -54,7 +54,15 @@ for(let i = 0; i<teachers.length; i++){
 }
 console.log(teachers)
 
-
+console.log('-----------------ES8------------')
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+for(let i = 0; i<teachers.length; i++){
+  if(teachers.length == 0){
+    const isTeachersEmpty = true;
+    console.log('array vuoto: ' + isTeachersEmpty)
+  }
+}
+
+
+//const isTeachersEmpty = null;
